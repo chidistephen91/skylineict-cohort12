@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient( rgba(207, 207, 207, 0.8), rgba(129, 110, 110, 0.8)), url(./bg\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+
+.container{
+    display: flex;
+}
+
+/* ===============Side Bar============== */
+
+.sidebar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px 20px 10px 0px;
+}
+.sidebar{
+    background-color: rgb(1, 1, 49);
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    color: white;
+    height: 100vh;
+    padding: 0 1rem;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.sidebar:hover{
+    width: 18%;
+}
+
+ul{
+    padding: 0.5rem;
+    position: relative;
+}
+
+.fa-gauge{
+    font-size: 1.1rem;
+    background-color: white;   
+    padding: 0.5rem;
+    color: red;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+ul li {
+    padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+    margin-top: 1rem;
+    list-style: none;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul li:hover, .active{
+    background-color: red;
+}
+ul li span{
+    overflow: hidden;
+}
+
+.logout {
+    margin-top: 4rem;
+    background-color: red;
+}
+
+/* ===============Main Section============== */
+
+.dashboard{
+    padding: 0.5rem;
+    width: 100vw;
+}
+
+
+.top {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(82, 65, 65) ;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.input {
+    position: relative;
+}
+.input i {
+    position: absolute;
+    background-color: #0051ff;
+    color: white;
+    padding: 5px;
+    right: -1rem;
+    top: 0;
+    border-radius: 0 10px 10px 0 ;
+}
+.top .right input{
+    padding: 5px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #0051ff;
+    border-radius: 10px;
+
+}
+
+.right .image img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+
+
+
+/* =================Student Info=============== */
+.table {
+    width: 100%;
+    margin-top: 2rem;
+    box-shadow: 0 3px 10px rgb(82, 65, 65) ;
+    /* border-radius: 50px; */
+}
+
+.table img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table table th {
+    color: rgb(0, 0, 230);
+    text-align: left;
+    padding: 20px 10px ;
+    background-color: rgb(228, 228, 236);
+}
+
+.table table tbody{
+    background-color: #fff;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: rgb(238, 238, 245);
+    
+}
+
+.table tbody tr:hover{
+    background-color: rgb(228, 228, 245);
+}
+
+.table tbody tr:nth-child(odd){
+    box-shadow: 0 2px 5px rgb(82, 65, 65) ;
+}
+.table table td{
+    padding:  10px;
+}
+
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.orange{
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 5px 8px;
+    color: white;
+}
+
+.yellow{
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px 8px;
+    color: white;
+}
+
+.blue{
+    background-color: rgb(0, 0, 230);
+    border-radius: 5px;
+    padding: 5px 8px;
+    color: white;
+}
+
+.contact{
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+
+.contact i{
+    background-color: rgb(228, 228, 236);
+    color: rgb(40, 40, 212);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.id {
+    color: rgb(40, 40, 212);
+    font-weight: 600;
+}
+
+
+
+/* ===================Card Page=================== */
+
+
+.card-main-section{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin: 40px 0;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.card{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 30%;
+    border-radius: 15px;
+    transition: 0.5s;
+    border-left: 5px solid rgb(40, 40, 212);
+    border-bottom: 5px solid rgb(40, 40, 212);
+}
+
+.card:hover{
+    transform: scale(0.98);
+}
+
+.top-card{
+    position: relative;
+    margin-top: 20px;
+}
+
+.top-card img {
+    border-radius: 50%;
+}
+
+.top-card::after{
+    content: "...";
+    position: absolute;
+    right: 0;
+    top: -2rem;
+    font-size: 2rem;
+    color: rgb(40, 40, 212);
+    cursor: pointer;
+}
+
+.top-card span{
+    font-size: 0.8rem;
+}
+
+.top-card h3{
+    color: rgb(40, 40, 212);
+}
+
+.buttom{
+    margin-top: 30px;
+}
+
+.buttom p{
+    display: flex;
+    margin: 10px 0;
+    gap: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(189, 189, 255);
+    justify-content: space-between;
+}
+
+.buttom button{
+    padding: 5px 10px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid rgb(40, 40, 212);
+    color: rgb(40, 40, 212);
+    margin: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttom button:hover{
+    background-color: rgb(40, 40, 212);
+    color: rgb(255, 255, 255);
+}
+
