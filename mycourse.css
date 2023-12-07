@@ -1,0 +1,153 @@
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+
+    background-color: rgb(220, 240, 247);
+}
+
+/* code for main container properties */
+
+.main_container{
+   background-color: rgb(65, 71, 68);
+   height: 80vh;
+   max-width: 69%; 
+   display: flex;
+   margin: auto;
+   margin-top: 80px;
+   font-family: 'Roboto Condensed', sans-serif; 
+   text-transform: capitalize;
+   
+}
+
+      /* code for header 2 properties */
+
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 20px;
+    text-shadow: 2px 2px;
+    text-shadow: color(srgb rgb(214, 186, 186) rgb(207, 233, 207) rgb(208, 208, 233));
+       
+}
+
+/* code for recent and perfomance container */
+
+.recent {
+background-color: rgb(250, 244, 238);
+max-width: 60%;
+margin: 10px;
+border-radius: 30px;
+box-shadow: 15px 5px;
+
+}
+
+.performance{
+
+    max-width: 40%;
+    background-color: rgb(250, 244, 238);
+    margin: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 15px 5px;
+
+
+}
+
+.recent table tr a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgb(30, 79, 79);
+    font-size: 15px;
+    
+    
+}
+   /* code for fontawesome properties */
+
+.recent table tr .fa-solid{
+
+    margin-left: 30px;
+}
+
+.performance h2 .fa-solid{
+    padding-left: 125px;
+}
+    /* code for over properties */
+
+.recent table tr a:hover{
+
+    background-color: azure;
+    color: black;
+    
+}
+
+/* code for table data properties */
+
+table tr td {
+
+    
+    padding: 18px;
+    font-size: 20px;
+    
+   
+}
+
+ .recent table tr img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: solid 1px;
+    background-color: beige;
+    padding: 10px;
+    
+}
+
+.performance table tr img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    /* padding: 2px; */
+    /* box-shadow:40px; */
+}
+
+
+.numbering_1, .numbering_2, .numbering_3, .numbering_4, .numbering_5{
+    background-color: antiquewhite;
+    width: 15px;
+    border-radius: 25px;
+    border-left: 2px solid rgb(30, 45, 1);
+}
+
+
+ .recent table tr  td span{
+    padding-left: 20px;
+    position: relative;
+    bottom: 20px;
+    font-size: 18px;
+    
+    
+}
+
+
+.performance table tr td span{
+    padding-left: 20px;
+    position: relative;
+    bottom: 23px;
+    font-size: 20px;
+    
+    
+}
+
+
+
+
+
+
+    
