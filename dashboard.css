@@ -1,0 +1,116 @@
+*{
+
+    padding: 0%;
+}
+video{
+    border-radius: 2%;
+    width: 60%;
+}
+
+.duck2 :hover{
+    color: yellow;
+
+}
+span{
+   /* display: flex; */
+   justify-content: space-around;
+   float: right;
+   width: 40%;
+}
+
+.side-bar{
+    float: right;
+    background-color: lightgreen;
+    /* text-align: center; */
+    width: 30%;
+    height: 10vh;
+    margin-right: 50px;
+    margin-left: 40px;
+    /* line-height: 1%; */
+    border-radius: 10px;
+    max-height: 10%;
+
+}
+
+.side-bar2{
+    float: right;
+    background-color: lightgreen;
+    /* text-align: center; */
+    width: 95%;
+    /* margin-bottom: 80%; */
+    height: 50vh;
+    margin-right: 20px;
+    margin-left: 40px;
+    /* line-height: 250px; */
+    border-radius: 10px;
+    position: sticky;
+}
+
+
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    /* border: 2px solid gray;
+    background-color: transparent; */
+}
+
+button .btn1 :hover{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    justify-content: space-around;
+    background-color: green;
+}
+
+.duckling a:hover{
+    color: green;
+    border-color: solid green;
+}
+
+.side-bar3{
+    float: right;
+    background-color: lightgreen;
+    /* text-align: center; */
+    width: 95%;
+    /* margin-bottom: 80%; */
+    height: 10vh;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+    /* line-height: 250px; */
+    border-radius: 10px;
+    position: sticky;
+}
+
+.side-bar4{
+    float: right;
+    background-color: lightgreen;
+    /* text-align: center; */
+    width: 95%;
+    /* margin-bottom: 80%; */
+    height: 10vh;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+    /* line-height: 250px; */
+    border-radius: 10px;
+    position: sticky;
+}
+input[type=range]{
+    color: green;
+}
+
+@media screen and (max-width:1000px) {
+
+video{
+    width: 50%;
+}    
+    
+p{
+    width: 50%;
+}
+
+
+}
