@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(15, 71, 121); 
+}
+
+table{
+/* border: 2px solid blue; */
+border-collapse: collapse;
+width: 80%;
+margin: auto;
+}
+
+ td{
+    border-bottom: 1px solid grey;
+    padding: 15px;
+    font-size: 15pv;
+    /* text-align: center; */
+    color: rgb(15, 71, 121);
+}
+tr{
+    border-bottom: 1px solid grey;
+    padding: 15px;
+    font-size: 8pv;
+    
+
+}
+thead{
+/* background-color: rgb(14, 14, 80); */
+
+text-align: center;
+text-transform: capitalize;
+height: ;
+}
+
+th{
+    font-size: 25px;
+    padding: 15px;
+    text-align: left;
+}
+.fail{
+    color: red;
+}
+.pass{
+    color: green;
+}
+
+caption{
+font-size: 30px;
+text-transform: capitalize;
+    
+}
+
+.content{
+
+    display: flex;
+    margin-left: 200px;
+    gap: 20px;
+    padding-top: 10px;
+   
+}
+
+.num{
+
+    background-color: rgb(201, 195, 195);
+    height: 25px;
+    padding: 0px 40px;
+    border-width: thick;
+    display: flex;
+    width: 30px;
+ 
+}
+
+.fa-caret-down{
+
+    font-size: 13PX;
+    margin-left: 10px;
+}
+
+.accepted{
+
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.pending{
+
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+}
+
+.rejected{
+
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.search{
+
+    margin-top: 15px;
+    margin-right: 15%;
+}
+
+input{
+
+    border-radius: 5px;
+    width: 70%;
+}
+
+
+
+.fa-sort{
+
+    /* margin-right: 50px; */
+    color: gray;
+    width: 2px;
+    gap: 100px;
+   
+}
+
+a{
+
+    text-decoration: none;
+    size: 20px;
+    padding: 7px;
+}
